@@ -9,8 +9,8 @@ public class Vallis{
 		Int num = in.nextInt();
 		double pi = 1;
 		for (int i = 1; i <= num; i++) {
-      pi = (pi*(i*2)*(i*2))\((i*2-1)*(i*2+1));
-    }
+      		pi = (pi*(i*2)*(i*2))\((i*2-1)*(i*2+1));
+    		}
 		
 		System.out.println("Число ПИ: "+pi);
 	}
