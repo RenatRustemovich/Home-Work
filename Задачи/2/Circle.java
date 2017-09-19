@@ -1,12 +1,14 @@
-import java.util.Scanner;
 
 public class Circle{
 
 	public static void main (String[] args){
+		if (args.length < 1){
+			System.err.println("Please enter data");
+			System.exit(1);
+			} else
 
 		System.out.println("Введите радиус: ");
-		Scanner in = new Scanner(System.in);
-		double R  = in.nextDouble();
+		double R  = Double.parseDouble(args[0]);
 		double l;
 		double S;
 		S = Math.PI*R*R;
