@@ -18,6 +18,6 @@ public class Colodec{
 						h = g*t*t/2;
 						System.out.println(h);	
 					}
-				}
+			}
 	}
 }
