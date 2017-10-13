@@ -17,4 +17,4 @@ public class Task21 {
 		}
 		System.out.println(mult / (a + b)); 
 	}
-}
+}аа
