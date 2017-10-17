@@ -1,10 +1,10 @@
 public class PhraseOMatic{
 	public static void main(String[] args) {
-		String [] wordListOne = {"Анатомический", "Перпендикулярный",
-								"Автоматический", "Угрюмый","Аутоимунный" };
-		String [] wordListTwo = {"олдовый", "сасный", "беспокойный"} ;
+		String [] wordListOne = {"Волосатый", "Перпендикулярный",
+								"Подрачивающий", "Угрюмый","Смазывающий", "Сексуальный", "Горячий" };
+		String [] wordListTwo = {"олдовый", "сасный", "беспокойный", "Пиздатый", "безпиздатый", "хуевый", "нехуевый"} ;
 		String [] wordListThree = {"Ренат", "Рафаыл",
-		 						"Аяз", "Никита"};
+		 						"Аяз", "Никита", "Ринат", "Динар"};
 		int oneLength = wordListOne.length;
 		int twoLength = wordListTwo.length;
 		int threeLength = wordListThree.length;
