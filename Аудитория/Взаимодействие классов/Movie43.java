@@ -8,19 +8,19 @@ class Movie{
 		this.raiting = raiting;
 	}
 	public Movie(){};
-	public void Play(){
+	public void play(){
 		System.out.print("Play Film");
 	}
 }
 
 
+class MovieTheatre{
+	public void playFilm(Movie movie){
+		System.out.println("Play " + movie.title);
+	}
+}
 
-
-
-
-
-
-public class MovieTestDrive{
+public class Movie43{
 	public static void main(String[] args) {
 		Movie one = new Movie();
 		one.title = "Mask";
@@ -28,9 +28,9 @@ public class MovieTestDrive{
 		one.raiting = 5;
 
 		Movie two = new Movie("Interstelar", "drama", 3);
-
+		MovieTheatre spartak = new MovieTheatre();
+		spartak.playFilm(one);
 		System.out.println(one.title + " " + one.genre + " " + one.raiting);
-		System.out.println(two.title + " " + two.genre + " " + two.raiting);
-		one.Play();
+		System.out.println(two.title + " " + two.genre + " " + two.raiting);	
 	}
 }
